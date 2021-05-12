@@ -1,9 +1,36 @@
+@media screen and (max-width: 320px) {
+    .button-transparent {
+        padding: 0 10px;
+    }
+}
 @media screen and (max-width: 992px) {
+    .hello {
+        padding-top: 30px;
+    }
+
+    .hello_left-side {
+        padding-bottom: 45px;
+    }
+
     h1, h2 {
         font-size: 36px;
     }
 
+    p {
+        font-size: 16px;
+    }
+
     .face .nav .nav-item {
         margin-right: 0;
+    }
+
+
+    .face .button-transparent {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .hello .button-transparent {
+        margin-top: 30px;
     }
 }
