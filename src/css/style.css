@@ -1,0 +1,100 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+    font-size: 24px;
+}
+
+button {
+    border: 2px solid #fff;
+}
+
+h1, h2 {
+    font-size: 48px;
+}
+
+.cover-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(../assets/face.png) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.face {
+    font-size: 24px;
+}
+
+.face nav {
+    font-weight: 500;
+}
+
+.face .nav .nav-item {
+    margin-right: 25px;
+}
+
+.face .header_social-button {
+    padding-left: 40px;
+}
+
+.face ul>li {
+    text-transform: lowercase;
+}
+
+.face h1 {
+    margin: 0 auto;
+    font-weight: 300;
+    width: 700px;
+}
+
+.face a {
+    color: #fff;
+}
+
+.cover-container .nav-link.active {
+    background-color: rgba(35, 35, 35, 0.2);
+}
+
+.button-transparent {
+    color: #fff;
+    background: none;
+    font-weight: 600;
+    font-size: 24px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.face .button-transparent {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hello .button-transparent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.hello {
+    color: rgba(255,255,255, 0.78);
+    background-color: #272727;
+}
+
+/*.hello h2:first-letter {*/
+/*    text-transform: lowercase;*/
+/*}*/
+
+.hello_left-side {
+}
+
+.hello_right-side {
+}
+
+
+.hello_right-side img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}

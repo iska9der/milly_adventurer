@@ -1,0 +1,9 @@
+@media screen and (max-width: 992px) {
+    h1, h2 {
+        font-size: 36px;
+    }
+
+    .face .nav .nav-item {
+        margin-right: 0;
+    }
+}
