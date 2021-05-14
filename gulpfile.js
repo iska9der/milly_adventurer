@@ -108,7 +108,7 @@ function imgProcess() {
         .src(src.img)
         .pipe(imagemin([
             imagemin.gifsicle({interlaced: true}),
-            imagemin.mozjpeg({quality: 75, progressive: true}),
+            imagemin.mozjpeg({quality: 70, progressive: true}),
             imageminPngquant(),
         ]))
         .pipe(gulp.dest(dist.img));
