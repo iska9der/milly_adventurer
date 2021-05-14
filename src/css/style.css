@@ -123,11 +123,17 @@ h1, h2 {
     color: #fff;
 }
 
-.place.card {
+.place h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+}
+
+.card {
     border: 0;
 }
 
-.place.card > * {
+.card > * {
     border-radius: 0;
 }
 
@@ -162,4 +168,24 @@ h1, h2 {
     font-weight: 600;
     border: 0;
     padding: 10px 20px;
+}
+
+.features {
+    padding: 90px 150px;
+}
+
+.features h2 {
+    width: 60%;
+}
+
+.features h3 {
+    margin-bottom: 24px;
+}
+
+.feature__description {
+    width: 50%;
+}
+
+.feature__img {
+    width: 50%;
 }

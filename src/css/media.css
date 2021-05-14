@@ -1,8 +1,22 @@
-@media screen and (max-width: 320px) {
-    .button-transparent {
-        padding: 0 10px;
+@media screen and (max-width: 1200px) {
+    .features {
+        padding: 90px 80px;
+    }
+    .features h2 {
+        width: 80%;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .features {
+        padding: 90px 30px;
+    }
+
+    .features h2 {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .hello {
         padding-top: 30px;
@@ -70,5 +84,42 @@
     .place button:hover {
         transition: all ease-in-out 2ms;
         background-color: #185dc6;
+    }
+
+    .features {
+        padding: 90px 16px;
+    }
+
+    .features h2 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .features h3 {
+        margin-bottom: 20px;
+    }
+
+    .feature__description {
+        width: 80%;
+    }
+
+    .feature__img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .feature__description {
+        width: 100%;
+    }
+
+    .feature__img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .button-transparent {
+        padding: 0 10px;
     }
 }
