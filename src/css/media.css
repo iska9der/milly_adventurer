@@ -3,9 +3,10 @@
         padding: 0 10px;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .hello {
         padding-top: 30px;
+        padding-bottom: 0;
     }
 
     .hello_left-side {
@@ -32,5 +33,42 @@
 
     .hello .button-transparent {
         margin-top: 30px;
+    }
+
+    .place {
+        width: 100%;
+    }
+
+
+    .place .card-img {
+        height: 276px;
+    }
+
+    .place .card__region {
+        font-size: 16px;
+    }
+
+    .place .card__title {
+        font-size: 24px;
+    }
+
+    .place .card__footer {
+        margin-bottom: 30px;
+    }
+
+    .card__footer p {
+        font-size: 14px;
+    }
+
+    .place button {
+        text-transform: uppercase;
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+
+    .place button:hover {
+        transition: all ease-in-out 2ms;
+        background-color: #185dc6;
     }
 }

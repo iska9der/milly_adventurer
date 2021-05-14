@@ -115,3 +115,51 @@ h1, h2 {
     object-fit: cover;
     vertical-align: bottom;
 }
+
+.places {}
+
+.place {
+    width: 50%;
+    color: #fff;
+}
+
+.place.card {
+    border: 0;
+}
+
+.place.card > * {
+    border-radius: 0;
+}
+
+.place .card-img {
+    height: 492px;
+    object-fit: cover;
+}
+
+.place .card-img-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.place .card-wrapper {
+}
+
+.place .card__region {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.place .card__footer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card__footer p {
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.place button {
+    font-weight: 600;
+    border: 0;
+    padding: 10px 20px;
+}
