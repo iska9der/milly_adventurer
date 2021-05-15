@@ -15,4 +15,4 @@ node_modules/
 dist/
 
 # Папка с изображениями
-/src/assets/
+/src/assets/images
