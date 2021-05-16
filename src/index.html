@@ -47,7 +47,7 @@
     </div>
     <div class="hello">
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
-            <div class="hello_left-side d-flex flex-column align-items-md-start col-12 col-md-4 mx-md-5 px-4 px-md-0">
+            <div class="hello_left-side d-flex flex-column align-items-md-start col-12 col-md-4 mx-md-5 px-md-0">
                     <h2>Привет, я - Милена</h2>
                     <p class="hello_description">
                         Профессиональный тревэл эксперт и организатор авторских туров с многолетним опытом работы в туризме
@@ -63,8 +63,8 @@
         <div class="d-flex flex-wrap">
             <div class="place card">
                 <img src="assets/images/Gorny_Altai.png" alt="Горный Алтай" class="card-img">
-                <div class="card-img-overlay">
-                    <div class="d-flex h-100 align-items-center justify-content-center">
+                <div class="place__content card-img-overlay">
+                    <div class="d-flex h-100 align-items-center">
                         <div class="card-wrapper">
                             <p class="card__region">Горный Алтай</p>
                             <h3 class="card__title">Цветущий Чуйский тракт</h3>
@@ -72,15 +72,15 @@
                                 <p class="card__date">23 - 26 апреля 2021</p>
                                 <p class="card__available-seats">Доступно 1 место</p>
                             </div>
-                            <button>Поехали</button>
+                            <button class="button-transparent">Поехали</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="place card">
                 <img src="assets/images/Dagestan.png" alt="Дагестан" class="card-img">
-                <div class="card-img-overlay">
-                    <div class="d-flex h-100 align-items-center justify-content-center">
+                <div class="place__content card-img-overlay">
+                    <div class="d-flex h-100 align-items-center">
                         <div class="card-wrapper">
                             <p class="card__region">Дагестан</p>
                             <h3 class="card__title">Майские праздники в Дагестане</h3>
@@ -88,15 +88,15 @@
                                 <p class="card__date">01 - 10 мая 2021</p>
                                 <p class="card__available-seats">Доступно 2 места</p>
                             </div>
-                            <button>Поехали</button>
+                            <button class="button-transparent">Поехали</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="place card">
                 <img src="assets/images/Krym.png" alt="Крым" class="card-img">
-                <div class="card-img-overlay">
-                    <div class="d-flex h-100 align-items-center justify-content-center">
+                <div class="place__content card-img-overlay">
+                    <div class="d-flex h-100 align-items-center">
                         <div class="card-wrapper">
                             <p class="card__region">Крым. Треккинг - тур</p>
                             <h3 class="card__title">Фантастические вершины Крыма</h3>
@@ -104,15 +104,15 @@
                                 <p class="card__date">23 - 26 апреля 2021</p>
                                 <p class="card__available-seats">Доступно 1 место</p>
                             </div>
-                            <button>Поехали</button>
+                            <button class="button-transparent">Поехали</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="place card">
                 <img src="assets/images/Krym2.png" alt="Крым" class="card-img">
-                <div class="card-img-overlay">
-                    <div class="d-flex h-100 align-items-center justify-content-center">
+                <div class="place__content card-img-overlay">
+                    <div class="d-flex h-100 align-items-center">
                         <div class="card-wrapper">
                             <p class="card__region">Крым</p>
                             <h3 class="card__title">Крымский прованс</h3>
@@ -120,7 +120,7 @@
                                 <p class="card__date">23 - 26 апреля 2021</p>
                                 <p class="card__available-seats">Доступно 1 место</p>
                             </div>
-                            <button>Поехали</button>
+                            <button class="button-transparent">Поехали</button>
                         </div>
                     </div>
                 </div>
@@ -131,15 +131,30 @@
         <h2>Мои душевные авторские путешествия это:</h2>
         <div class="row mb-5">
             <div class="col-12">
-                <div class="card flex-column flex-md-row align-items-center">
-                    <div class="card-body feature__description mx-5">
-                        <h3>Эксклюзивно и лично проверенные маршруты</h3>
+                <div class="card flex-column-reverse flex-md-row align-items-center justify-content-between">
+                    <div class="card-img feature__img ratio ratio-4x3">
+                        <img src="assets/images/feature_4.png" alt="some alt">
+                    </div>
+                    <div class="card-body feature__description">
+                        <h3>Безупречная организация и комфорт</h3>
                         <p>
-                            Профессиональный тревел эксперт и организатор авторских туров с многолетним опытом работы в туризме.
+                            Организовала отдых тысячам довольных туристов, которые из года в год снова обращаются ко мне за подбором тура.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="card flex-column flex-md-row align-items-center">
+                    <div class="card-body feature__description">
+                        <h3>Творческий подход к путешествию и спокойный, расслабленный темп</h3>
+                        <p>
+                            Организовала отдых тысячам довольных туристов, которые из года в год снова обращаются ко мне за подбором тура.
                         </p>
                     </div>
                     <div class="card-img-right feature__img ratio ratio-4x3">
-                        <img src="assets/images/feature_1.png" alt="some alt">
+                        <img src="assets/images/feature_3.png" alt="some alt">
                     </div>
                 </div>
             </div>
@@ -163,34 +178,118 @@
             <div class="col-12">
                 <div class="card flex-column flex-md-row align-items-center">
                     <div class="card-body feature__description mx-5">
-                        <h3>Творческий подход к путешествию и спокойный, расслабленный темп</h3>
+                        <h3>Эксклюзивно и лично проверенные маршруты</h3>
                         <p>
-                            Организовала отдых тысячам довольных туристов, которые из года в год снова обращаются ко мне за подбором тура.
+                            Профессиональный тревел эксперт и организатор авторских туров с многолетним опытом работы в туризме.
                         </p>
                     </div>
                     <div class="card-img-right feature__img ratio ratio-4x3">
-                        <img src="assets/images/feature_3.png" alt="some alt">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-12">
-                <div class="card flex-column-reverse flex-md-row align-items-center justify-content-between">
-                    <div class="card-img feature__img ratio ratio-4x3">
-                        <img src="assets/images/feature_4.png" alt="some alt">
-                    </div>
-                    <div class="card-body feature__description mx-5">
-                        <h3>Безупречная организация и комфорт</h3>
-                        <p>
-                            Организовала отдых тысячам довольных туристов, которые из года в год снова обращаются ко мне за подбором тура.
-                        </p>
+                        <img src="assets/images/feature_1.png" alt="some alt">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="booking">
+        <div class="booking__content d-md-flex flex-md-column align-items-md-center justify-content-md-center text-white">
+            <h2>Давайте исследовать нашу прекрасную Россию вместе</h2>
+            <button class="button-transparent">Зарезирвировать место</button>
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <img class="reviews__bg-img" src="assets/icons/quote.png" alt="Цитата">
+            <div class="review d-flex flex-column align-items-center text-center">
+                <div class="review__text">
+                    <p>
+                        «Профессиональный тревел эксперт и организатор авторских туров с многолетним опытом работы в туризме.
+                        Организовала отдых тысячам довольных туристов, которые из года в год снова обращаются ко мне
+                        за подбором тура»
+                    </p>
+                </div>
+                <div class="review__author">
+                    <p>Иванов Иван</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="how_it_was bg-dark text-white">
+        <div class="">
+            <div class="how_it_was__title d-flex justify-content-md-around">
+                <h3 class="d-inline">Как это было в прошлый раз</h3>
+                <button class="button-transparent d-none d-md-inline-block">Посмотреть больше фотографий</button>
+            </div>
+            <!--Карусель-->
+            <div id="carousel_images" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                <!--Элементы управления-->
+                    <a class="carousel-prev" href="#carousel_images"  data-bs-target="#carousel_images" data-bs-slide="prev">
+                        <img src="assets/icons/arrow_left.png" alt="Стрелка налево">
+                    </a>
+                    <a class="carousel-next" href="#carousel_images"  data-bs-target="#carousel_images" data-bs-slide="next">
+                        <img src="assets/icons/arrow_right.png" alt="Стрелка направо">
+                    </a>
+                <!--/.Элементы управления-->
+                <!--Слайды-->
+                <div class="carousel-inner" role="listbox">
+                    <!--Первый слайд-->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                    <img class="w-100" src="assets/images/carousel/1.jpg"
+                                         alt="Card image cap">
+                            </div>
+                            <div class="col-12 col-md-4 clearfix d-none d-md-block">
+                                    <img class="w-100" src="assets/images/carousel/2.jpg"
+                                         alt="Card image cap">
+                            </div>
+                            <div class="col-12 col-md-4 clearfix d-none d-md-block">
+                                    <img class="w-100" src="assets/images/carousel/3.jpg"
+                                         alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Первый слайд-->
+                    <!--Второй слайд-->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                    <img class="w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                                         alt="Card image cap">
+                            </div>
+                            <div class="col-12 col-md-4 clearfix d-none d-md-block">
+                                    <img class="w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                                         alt="Card image cap">
+                            </div>
+                            <div class="col-12 col-md-4 clearfix d-none d-md-block">
+                                    <img class="w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                                         alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Второй слайд-->
+                </div>
+                <!--/.Слайды-->
+            </div>
+        </div>
+    </div>
+    <div class="booking_instructions bg-danger text-white">
+        <div class="d-flex flex-column align-items-center">
+            <h2 class="text-center">Готовы к незабываемому приключению?</h2>
+            <ol class="booking__list align-self-start align-self-md-center">
+                <li>Нажмите на кнопку «Зарезервировать место в туре»</li>
+                <li>Заполните форму</li>
+                <li>Я свяжусь с вами, чтобы обсудить наше путешествие</li>
+                <li>Внесите предоплату, чтобы зарезервировать место</li>
+                <li>Я отправлю вам договор и подробную программу</li>
+                <li>Забронируйте ваш перелет</li>
+            </ol>
+            <button class="button-transparent">Зарезервировать место</button>
+        </div>
+    </div>
 </div>
+<footer class="footer">
+    <p>Данная услуга не является туроператорской деятельностью. Под туром подразумевается разовая помощь в организации поездки от имени клиента согласно настоящему договору-поручению.</p>
+</footer>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
