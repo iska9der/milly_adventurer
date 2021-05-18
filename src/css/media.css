@@ -5,6 +5,10 @@
     .features h2 {
         width: 80%;
     }
+
+    .how_it_was {
+        padding: 97px 75px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -14,6 +18,14 @@
 
     .features h2 {
         width: 100%;
+    }
+
+    .how_it_was h3 {
+        font-size: 24px;
+    }
+
+    .how_it_was button.button-transparent {
+        font-size: 14px;
     }
 }
 
@@ -146,6 +158,19 @@
 
     .footer p {
         font-size: 14px;
+    }
+
+
+    .splide__arrows button {
+        display: none;
+    }
+
+    .splide__arrow--prev {
+        left: 0;
+    }
+
+    .splide__arrow--next {
+        right: 0;
     }
 }
 

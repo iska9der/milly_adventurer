@@ -143,7 +143,7 @@ function jsProcess() {
 function watchFiles() {
     gulp.watch(src.html, gulp.series(htmlProcess, browserSyncReload));
     gulp.watch(src.css, gulp.series(cssProcess, browserSyncReload));
-    gulp.watch(src.css, gulp.series(jsProcess, browserSyncReload));
+    gulp.watch(src.js, gulp.series(jsProcess, browserSyncReload));
     gulp.watch(src.img, gulp.series(imgProcess, browserSyncReload));
 }
 
