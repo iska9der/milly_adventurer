@@ -226,6 +226,10 @@
         right: 0;
     }
 
+    .booking_instructions {
+        background-size: auto 100%;
+    }
+
     .footer p {
         font-size: 14px;
     }

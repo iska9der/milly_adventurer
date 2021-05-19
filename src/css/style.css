@@ -333,6 +333,8 @@ h1, h2 {
 }
 
 .booking_instructions {
+    background: url('../assets/images/Rock.png') no-repeat center center;
+    background-size: auto 130%;
     padding: 110px 0;
 }
 
