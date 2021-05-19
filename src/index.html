@@ -18,32 +18,48 @@
 <div class="wrapper">
     <div class="face">
         <div class="cover-container d-flex flex-column mx-auto text-white h-auto">
-            <header class="header d-flex justify-content-center">
-                <ul class="nav nav-pills py-4">
-                    <li class="nav-item"><a class="nav-link active" href="#">Расписание</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Направления</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Подготовка</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Обо мне</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
-                    <li class="nav-item header_social-button"><a class="nav-link" href="#">
-                        <img src="assets/icons/social/instagram.png" alt="Ссылка на Instagram">
-                    </a></li>
-                </ul>
-                <div class="header_social-buttons">
-                    <a href="#"></a>
-                </div>
-            </header>
-            <div class="d-flex flex-column align-items-center text-center m-md-3">
-                <div class="row logo p-md-5">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="btn-close"></span>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav w-100 justify-content-md-center">
+                                <li class="nav-item"><a class="nav-link active" href="#">Расписание</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Направления</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Подготовка</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Обо мне</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                                <li class="nav-item header_social-button d-none d-md-inline">
+                                    <a class="nav-link" href="#">
+                                        <img src="assets/icons/social/instagram.png" alt="Ссылка на Instagram">
+                                    </a>
+                                </li>
+                                <li class="nav-item header_go-button d-block d-md-none">
+                                    <button>Забронируй свое приключение</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="d-flex flex-column align-items-center text-center px-md-5">
+                <div class="row logo p-5">
                     <img src="assets/logo.png" alt="Milly Adventurer">
                 </div>
                 <h1>Душевные авторские туры и экспедиции по России</h1>
-                <div class="row">
-                    <button class="button-transparent mt-5">Посмотреть туры</button>
-                </div>
-                <div class="row">
-                    <img class="arrow-down mt-5" src="assets/icons/arrow_down.png" alt="Стрелка вниз">
-                </div>
+                    <div class="face__btn-group">
+                        <div class="row">
+                            <button class="button-transparent">Посмотреть туры</button>
+                        </div>
+                        <div class="row">
+                            <div class="face__btn-group__arrow">
+                                <img class="arrow-down" src="assets/icons/arrow_down.png" alt="Стрелка вниз">
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
@@ -221,56 +237,47 @@
         </div>
     </div>
     <div class="how_it_was bg-dark text-white">
-        <div class="">
-            <div class="how_it_was__title d-flex justify-content-md-around">
-                <h3 class="d-inline">Как это было в прошлый раз</h3>
-                <button class="button-transparent d-none d-md-inline-block">Посмотреть больше фотографий</button>
+        <div class="how_it_was__title d-flex justify-content-md-around">
+            <h3 class="d-inline">Как это было в прошлый раз</h3>
+            <button class="button-transparent d-none d-md-inline-block">Посмотреть больше фотографий</button>
+        </div>
+        <!--Карусель-->
+        <div class="splide">
+            <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev">
+                    <img src="assets/icons/arrow_left.png" alt="Стрелка налево">
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                    <img src="assets/icons/arrow_right.png" alt="Стрелка направо">
+                </button>
             </div>
-            <!--Карусель-->
-            <div class="splide">
-                <div class="splide__arrows">
-                    <button class="splide__arrow splide__arrow--prev">
-                        <img src="assets/icons/arrow_left.png" alt="Стрелка налево">
-                    </button>
-                    <button class="splide__arrow splide__arrow--next">
-                        <img src="assets/icons/arrow_right.png" alt="Стрелка направо">
-                    </button>
-                </div>
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
-                            <img data-splide-lazy="assets/images/carousel/1.jpg"
-                                 alt="Card image cap">
-                        </li>
-                        <li class="splide__slide">
-                            <img data-splide-lazy="assets/images/carousel/2.jpg"
-                                 alt="Card image cap">
-                        </li>
-                        <li class="splide__slide">
-                            <img data-splide-lazy="assets/images/carousel/3.jpg"
-                                 alt="Card image cap">
-                        </li>
-                        <li class="splide__slide">
-                            <img
-                                 data-splide-lazy="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                                 alt="Card image cap">
-                        </li>
-                        <li class="splide__slide">
-                            <img
-                                 data-splide-lazy="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                                 alt="Card image cap">
-                        </li>
-                        <li class="splide__slide">
-                            <img
-                                 data-splide-lazy="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                                 alt="Card image cap">
-                        </li>
-                    </ul>
-                </div>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img data-splide-lazy="assets/images/carousel/1.jpg" alt="Card image cap">
+                    </li>
+                    <li class="splide__slide">
+                        <img data-splide-lazy="assets/images/carousel/2.jpg" alt="Card image cap">
+                    </li>
+                    <li class="splide__slide">
+                        <img data-splide-lazy="assets/images/carousel/3.jpg" alt="Card image cap">
+                    </li>
+                    <li class="splide__slide">
+                        <img data-splide-lazy="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                                alt="Card image cap">
+                    </li>
+                    <li class="splide__slide">
+                        <img data-splide-lazy="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                                alt="Card image cap">
+                    </li>
+                    <li class="splide__slide">
+                        <img data-splide-lazy="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                                alt="Card image cap">
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-
     <div class="booking_instructions bg-danger text-white">
         <div class="d-flex flex-column align-items-center">
             <h2 class="text-center">Готовы к незабываемому приключению?</h2>
